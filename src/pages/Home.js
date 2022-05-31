@@ -7,9 +7,6 @@ function Home() {
   return (
     <div className="">
       <NavBar />
-      <Link to={'/docs'}>
-        <button>Docs</button>
-      </Link>
     </div>
   );
 }
