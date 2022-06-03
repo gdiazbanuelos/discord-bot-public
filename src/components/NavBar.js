@@ -3,15 +3,15 @@ import { Link } from 'react-router-dom'
 
 const NavBar = () => {
     return (
-        <section className='mt-6 sm:mx-8'>
+        <section className='mt-6 sm:mx-8 mb-4'>
             <div className='flex justify-center mb-2 
             sm:inline-block sm:w-1/3'>
-                <h1 className="text-3xl">
+                <h1 className="text-3xl font-bold">
                     Discord Bot!
                 </h1>
             </div>
             <div className='sm:inline-block'>
-                <ul className='flex flex-row flex-wrap mx-5 justify-center'>
+                <ul className='flex flex-row flex-wrap mx-5 justify-center font-black'>
                     <li className='ml-2'>
                         <Link to={'/examples'}>
                             <p className='bold text-[#33abcd]'>Examples</p>
